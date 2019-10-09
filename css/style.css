@@ -1,0 +1,91 @@
+html{
+	position: relative;
+}
+body{
+	margin-bottom: 120px;
+	margin-top: 50px;
+	background-color: #E9967A;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.jumbotron{
+	background-image: url('../img/1.png');	
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0 -100px;
+	color: #eaeaea;
+}
+
+
+.jumbotron img{
+          
+	width: 200px;
+	border: 2px solid #eaeaea;
+	
+}
+hr {
+	width: 250px;
+	border-top: 2px solid #eaeaea;
+}
+
+section{
+	min-height: 400px;
+
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height:100px;
+	background-color: #333;
+	padding-top: 30px;
+
+}
+footer p{
+	color: #aaa;
+	font-size: 1em;
+}
+ .navbar{
+ 	opacity: 0.5;
+ }
+h1,h2 , h3, h4, h5,h6{
+	font-family: 'Reem Kufi', sans-serif;
+
+}
+p{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
+
+}
+
+.progress-bar {
+    background-color: #E30845;
+}
+
+.progress {
+    width: 300px;
+
+}
+.skill{
+	min-height: 600px;
+	padding-bottom: 0px;
+
+
+}
+.education{
+	min-height: 400px;
+	padding-bottom: 0px;
+}
+.contact{
+	min-height: 500px;
+	padding-bottom: 0px;
+}
+
+/*phone*/
+@media (min-width: 320px) and (max-width: 767px){
+}
+/*tab*/
+@media (min-width: 768px) and (max-width: 1024px){
+}
